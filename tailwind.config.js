@@ -1,9 +1,23 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{js,jsx}"],
   mode: "jit",
   theme: {
     extend: {
+      animation: {
+        text: "text 5s ease infinite",
+      },
+      keyframes: {
+        text: {
+          "0%, 100%": {
+            "background-size": "200% 200%",
+            "background-position": "left center",
+          },
+          "50%": {
+            "background-size": "200% 200%",
+            "background-position": "right center",
+          },
+        },
+      },
       colors: {
         primary: "#050816",
         secondary: "#aaa6c3",
@@ -19,10 +33,10 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')",
+        "avatar": "url(/src/assets/soham.jpg)",
+        "avatar1":"url('/src/assets/soham2.jpg')"
       },
     },
   },
   plugins: [],
-};
-
+}

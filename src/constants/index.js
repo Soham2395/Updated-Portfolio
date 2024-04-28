@@ -14,7 +14,6 @@ import {
     mongodb,
     git,
     figma,
-    docker,
     jmedia,
     txw,
     osc,
@@ -107,11 +106,7 @@ import {
     {
       name: "figma",
       icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    }
   ];
   
   const experiences = [
@@ -212,7 +207,8 @@ import {
         },
       ],
       image: memehub,
-      source_code_link: "https://github.com/Soham2395/MemeHub",
+      source_code_link: "https://github.com/Soham2395/Meme-Generator",
+      project_link: "https://meme-hub-azure.vercel.app/",
     },
     {
       name: "Real Estate",
@@ -234,6 +230,7 @@ import {
       ],
       image: realestate,
       source_code_link: "https://github.com/Soham2395/RealEstate",
+        project_link: "https://aanjullienterprises.co.in/",
     },
     {
       name: "Meditation App",
@@ -255,6 +252,7 @@ import {
       ],
       image: meditation,
       source_code_link: "https://github.com/Soham2395/Meditation-App",
+      project_link: "https://meditation-app-five-sooty.vercel.app/",
     },
   ];
   
