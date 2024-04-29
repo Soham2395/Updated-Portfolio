@@ -22,6 +22,15 @@ import {
     realestate,
     meditation,
     threejs,
+    nextjs,
+    prismadb,
+    php,
+    mysql,
+    firebase,
+    vite,
+    python,
+    c,
+    cpp
   } from "../assets";
   
   export const navLinks = [
@@ -106,6 +115,42 @@ import {
     {
       name: "figma",
       icon: figma,
+    },
+    {
+      name: "Next JS",
+      icon: nextjs,
+    },
+    {
+      name: "PHP",
+      icon: php,
+    },
+    {
+      name: "MySQL",
+      icon: mysql,
+    },
+    {
+      name: "Prisma DB",
+      icon: prismadb,
+    },
+    {
+      name: "Firebase",
+      icon: firebase,
+    },
+    {
+      name: "Vite",
+      icon: vite,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "C",
+      icon: c,
+    },
+    {
+      name: "C++",
+      icon: cpp,
     }
   ];
   

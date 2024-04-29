@@ -20,6 +20,15 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nextjs from "./tech/nextjs.png";
+import php from "./tech/php.png";
+import mysql from "./tech/mysql.png";
+import prismadb from "./tech/prismadb.png";
+import firebase from "./tech/firebase.png";
+import vite from "./tech/vite.png";
+import python from "./tech/python.png";
+import c from "./tech/c.png";
+import cpp from "./tech/cpp.png";
 
 import jmedia from "./company/jmedia.png";
 import txw from "./company/txw.png";
@@ -51,6 +60,15 @@ export {
   tailwind,
   typescript,
   threejs,
+  nextjs,
+  prismadb,
+  php,
+  mysql,
+  firebase,
+  vite,
+  python,
+  c,
+  cpp,
   jmedia,
   txw,
   osc,
