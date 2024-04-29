@@ -3,7 +3,13 @@ import { Cursor, useTypewriter } from "react-simple-typewriter";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
+import { Link } from "react-router-dom";
 import { styles } from "../styles";
+
+import { BsGithub } from "react-icons/bs";
+import { BsDiscord } from "react-icons/bs";
+import { BsInstagram } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 
 const ServiceCard = ({ index, title, icon, reference }) => (
   <Tilt className="xs:w-[250px] w-full ">
@@ -100,6 +106,29 @@ const Hero = () => {
             </a>
           </div>
 
+          <div className="text-[20px] md:text-[35px] flex justify-center gap-5  items-center md:mt-10 mt-5 md:gap-12 sm:mb-20  ">
+            <Link
+              target="_blank"
+              to="https://www.linkedin.com/in/soham-chakraborty-108450255/"
+            >
+              {" "}
+              <BsLinkedin className=" text-white mr-2 hover:translate-y-[-2px] hover:cursor-pointer transition-all ease-in duration-100 -md:mr-0 -md:my-[1px]" />
+            </Link>
+
+            <Link target="_blank" to="https://github.com/Soham2395">
+              <BsGithub className="mx-2 hover:translate-y-[-2px] hover:cursor-pointer transition-all ease-in duration-100 -md:mx-0 -md:my-[1px]" />
+            </Link>
+            <Link target="_blank" to="https://discordapp.com/users/1077281126525186109">
+              <BsDiscord className="mx-4 hover:translate-y-[-2px] hover:cursor-pointer transition-all ease-in duration-100 -md:mx-0 -md:my-[1px]" />
+            </Link>
+
+            <Link
+              target="_blank"
+              to="https://www.instagram.com/techno_phile18/"
+            >
+              <BsInstagram className="mx-2 hover:translate-y-[-2px] hover:cursor-pointer transition-all ease-in duration-100 -md:mx-0 -md:my-[1px]" />
+            </Link>
+          </div>
         </div>
 
         <div ref={ref} className="w-full mt-10 ">
