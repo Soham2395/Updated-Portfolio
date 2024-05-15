@@ -15,6 +15,9 @@ const Footer = () => {
         <p className="text-secondary text-[17px] leading-[30px] text-center   left-0 right-0 cle">
           2024 &copy; Soham. All rights reserved.
         </p>
+        <p className="text-secondary text-[17px] leading-[30px] text-center   left-0 right-0 cle">
+          sohamchakraborty18.edu@gmail.com
+        </p>
 
       </div>
 

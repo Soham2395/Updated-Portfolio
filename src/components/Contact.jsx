@@ -37,9 +37,8 @@ const Contact = () => {
         'template_p92f6cp',
         {
           from_name: form.name,
-          to_name: "Soham | Portfolio",
           from_email: form.email,
-          to_email: "sohamchakraborty18.edu@gmail.com",
+          to_email: form.email,
           message: form.message,
         },
         'eb5uK_BLR_sSmH_fR'
@@ -72,7 +71,6 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
         <form
@@ -87,7 +85,7 @@ const Contact = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="What's your name?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
               required
             />
@@ -111,7 +109,7 @@ const Contact = () => {
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder='What you want to say?'
+              placeholder='What do you want to say?'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
               required
             />
