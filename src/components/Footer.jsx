@@ -22,25 +22,18 @@ const Footer = () => {
       </div>
 
       <div>
-        <a
-          href="#about"
-          className="w-fit soham mx-auto flex items-center justify-center gap-6 bg-tertiary lg:px-7 lg:py-3 px-4 py-2 rounded-xl lg:mt-10 mt-5 cursor-pointer max-[350px]:hidden select-none"
-        >
-          <div className="group border-[3px] border-white rounded-full h-12 w-7 flex justify-center lg:scale-100 scale-75">
-            <div className="bg-white h-3 w-1 rounded-full mt-[10px] animate-bounce lg:scale-100 scale-75"></div>
-          </div>
 
-          <a href="https://www.hitwebcounter.com" target="_blank">
-            <img
-              src="https://hitwebcounter.com/counter/counter.php?page=12966378&style=0001&nbdigits=5&type=page&initCount=0"
-              title="Counter Widget"
-              Alt="Visit counter For Websites"
-              border="0"
-            />
-          </a>
-
-          <p className={styles.sectionSubText}>Portfolio Visits</p>
-        </a>
+      <div className="hidden lg:block">
+      <a href="https://www.hitwebcounter.com" target="_blank">
+      <img
+      src="https://hitwebcounter.com/counter/counter.php?page=12966378&style=0001&nbdigits=5&type=page&initCount=0"
+      title="Counter Widget"
+      alt="Visit counter For Websites"
+      border="0"
+      />
+    </a>
+    <p className={styles.sectionSubText}>Portfolio Visits</p>
+</div>
 
       </div>
     </div>
