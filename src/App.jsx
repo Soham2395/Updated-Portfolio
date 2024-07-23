@@ -9,7 +9,7 @@ const App = () => {
 
   useEffect(() => {
     // Initialize GA4
-    ReactGA.initialize('G-P5V0RZMFD0'); // Replace with your GA4 Tracking ID
+    ReactGA.initialize('G-P5V0RZMFD0'); 
   }, []);
 
   useEffect(() => {
