@@ -34,6 +34,7 @@ import jmedia from "./company/jmedia.png";
 import txw from "./company/txw.png";
 import osc from "./company/osc.png";
 import dice from "./company/dice.png";
+import ieee from "./company/ieee.png";
 
 import memehub from "./memehub.png";
 import realestate from "./realestate.png";
@@ -73,6 +74,7 @@ export {
   txw,
   osc,
   dice,
+  ieee,
   memehub,
   realestate,
   meditation,

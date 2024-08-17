@@ -18,6 +18,7 @@ import {
     txw,
     osc,
     dice,
+    ieee,
     memehub,
     realestate,
     meditation,
@@ -156,17 +157,29 @@ import {
   
   const experiences = [
     {
-      title: "Frontend Web Developer",
+      title: "Front End Developer Intern | Software Developer",
       company_name: "JMedia Corp.",
       icon: jmedia,
       iconBg: "#383E56",
       date: "February 2024 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams like AI/ML, Cybersecurity to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed and maintained 5+ web applications using React.js and related technologies, contributing 40% to project success",
+        "Collaborated with AI/ML and Cybersecurity teams to create high-quality products, improving cross-functional efficiency by 25%",
+        "Participated in code reviews, providing constructive feedback and enhancing code quality by 80%",
+        "Managed teams efficiently leading to timely completion of projects"
       ],
+    },
+    {
+      title: "Technical Head",
+      company_name: "IEEE",
+      icon: ieee,
+      iconBg: "#383E56",
+      date: "July 2024 - Present",
+      points:[
+        "Leading a team in the development and optimization of IEEE's website, focusing on delivering a modern and user-friendly experience",
+        "Overseeing ongoing updates and maintenance to ensure our site remains cutting-edge and fully functional",
+        "Committed to enhancing IEEE’s digital and event experiences through strategic leadership and technical expertise"
+      ]
     },
     {
       title: "Technical Team",
@@ -175,9 +188,8 @@ import {
       iconBg: "#E6DEDD",
       date: "Apr 2023 - Dec 2023",
       points: [
-        "Developing components for the main website.",
-        "Working with the team to develop AI chatbot",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed components for the main website, enhancing user experience and functionality",
+        "Collaborated with the team to develop an AI chatbot, improving customer interaction and support efficiency by 30%"
       ],
     },
     {
@@ -185,7 +197,7 @@ import {
       company_name: "Open Source Chandigarh",
       icon: osc,
       iconBg: "#383E56",
-      date: "Sep 2023 - Present",
+      date: "Sep 2023 - June 2024",
       points: [
         "Organizing events, seminars and workshops for the community.",
         "Part of the Programming and DSA team."
@@ -196,11 +208,12 @@ import {
       company_name: "Department of Interdisciplinary Courses in Engineering",
       icon: dice,
       iconBg: "#E6DEDD",
-      date: "Dec 2022 - Present",
+      date: "Dec 2022 - July 2024",
       points: [
-        "Received a government funding of 2 Lakh INR for our E-Bike project.",
-        "Won national level award for our project.",
-        "Responsible for developing the project and maintaining all the paperworks related to it."
+        "Received government funding of 2 Lakh INR for the E-Bike project",
+        "Won national level award for the project",
+        "Developing the department's official website increasing user reach by 350%",
+        "Managing and organizing successful events"
       ],
     },
   ];
