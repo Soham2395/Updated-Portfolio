@@ -39,6 +39,7 @@ import ieee from "./company/ieee.png";
 import memehub from "./memehub.png";
 import realestate from "./realestate.png";
 import meditation from "./meditation.png";
+import dicewebsite from "./dicewebsite.png";
 
 export {
   logo,
@@ -78,5 +79,6 @@ export {
   memehub,
   realestate,
   meditation,
-  view
+  view,
+  dicewebsite
 };

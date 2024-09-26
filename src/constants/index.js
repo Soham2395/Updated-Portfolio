@@ -20,7 +20,7 @@ import {
     dice,
     ieee,
     memehub,
-    realestate,
+    dicewebsite,
     meditation,
     threejs,
     nextjs,
@@ -58,14 +58,15 @@ import {
       title: "UI/UX Designer",
       icon: mobile,
     },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
+    
     {
       title: "MERN Stack Developer",
       icon: creator,
     },
+    {
+      title: "Project Manager",
+      icon: backend,
+    }
   ];
   
   const technologies = [
@@ -157,7 +158,7 @@ import {
   
   const experiences = [
     {
-      title: "Front End Developer Intern | Software Developer",
+      title: "Front End Developer Intern | Senior Software Developer",
       company_name: "JMedia Corp.",
       icon: jmedia,
       iconBg: "#383E56",
@@ -176,7 +177,7 @@ import {
       iconBg: "#383E56",
       date: "July 2024 - Present",
       points:[
-        "Leading a team in the development and optimization of IEEE's website, focusing on delivering a modern and user-friendly experience",
+        "Leading a team in the development and optimization of IEEE's website and app, focusing on delivering a modern and user-friendly experience",
         "Overseeing ongoing updates and maintenance to ensure our site remains cutting-edge and fully functional",
         "Committed to enhancing IEEE’s digital and event experiences through strategic leadership and technical expertise"
       ]
@@ -269,26 +270,22 @@ import {
       project_link: "https://meme-hub-azure.vercel.app/",
     },
     {
-      name: "Real Estate",
+      name: "DICE Department Website",
       description:
-        "A real estate web application where you can find your dream home or even list your property for rent and sale.",
+        "The official website of the Department of Interdisciplinary Courses in Engineering.",
       tags: [
         {
           name: "mern stack",
           color: "blue-text-gradient",
         },
         {
-          name: "firebase",
-          color: "green-text-gradient",
-        },
-        {
           name: "tailwind css",
           color: "pink-text-gradient",
         },
       ],
-      image: realestate,
-      source_code_link: "https://github.com/Soham2395/RealEstate",
-        project_link: "https://aanjullienterprises.co.in/",
+      image: dicewebsite,
+      source_code_link: "https://github.com/Soham2395/DICE-Website",
+        project_link: "https://dice-website-pi.vercel.app/",
     },
     {
       name: "Meditation App",
