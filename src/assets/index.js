@@ -35,11 +35,17 @@ import txw from "./company/txw.png";
 import osc from "./company/osc.png";
 import dice from "./company/dice.png";
 import ieee from "./company/ieee.png";
+import chairman from "./company/chairman.jpeg";
+import preksha from "./company/preksha.jpeg";
+import aryan from "./company/aryan.jpeg";
 
 import memehub from "./memehub.png";
 import realestate from "./realestate.png";
 import meditation from "./meditation.png";
 import dicewebsite from "./dicewebsite.png";
+import skillmingle from "./skillmingle.png";
+import hackwithher from "./hackwithher.png";
+import storeit from "./storeit.png";
 
 export {
   logo,
@@ -79,6 +85,12 @@ export {
   memehub,
   realestate,
   meditation,
+  skillmingle,
+  hackwithher,
+  storeit,
   view,
-  dicewebsite
+  dicewebsite,
+  chairman,
+  preksha,
+  aryan
 };

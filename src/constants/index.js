@@ -31,7 +31,13 @@ import {
     vite,
     python,
     c,
-    cpp
+    cpp,
+    chairman,
+    aryan,
+    preksha,
+    skillmingle,
+    hackwithher,
+    storeit
   } from "../assets";
   
   export const navLinks = [
@@ -164,7 +170,7 @@ import {
       iconBg: "#383E56",
       date: "February 2024 - Present",
       points: [
-        "Developed and maintained 5+ web applications using React.js and related technologies, contributing 40% to project success",
+        "Developed and maintained 8+ web applications using React.js and related technologies, contributing 40% to project success",
         "Collaborated with AI/ML and Cybersecurity teams to create high-quality products, improving cross-functional efficiency by 25%",
         "Participated in code reviews, providing constructive feedback and enhancing code quality by 80%",
         "Managed teams efficiently leading to timely completion of projects"
@@ -222,57 +228,71 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Soham proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "He has shown a great amount of responsiblity, leadership skills and a zeal to take on new challenges.",
+      name: "Anasthasia Short",
+      designation: "Chairman",
+      company: "JMedia Corp.",
+      image: chairman,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Soham does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Soham optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
+        "His ability to tackle complex problems with creative solutions has been invaluable to our projects.",
+      name: "Aryan Inguz",
       designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      company: "The Xiting Way",
+      image: aryan,
+    },
+    {
+      testimonial:
+        "He possesses a deep understanding of data structures, development and software methodologies.",
+      name: "Preksha Mahajan",
+      designation: "Mentor",
+      company: "Open Source Chandigarh",
+      image: preksha,
     },
   ];
   
   const projects = [
     {
-      name: "Memehub",
+      name: "HackWithHer",
       description:
-        "Web application where you can turn your ideas into memes and share them with the world.",
+        "The all in one information platform regarding the HackWithHer hackathon organized by IEEE-CIET.",
       tags: [
         {
-          name: "javascript",
+          name: "mern stack",
           color: "blue-text-gradient",
         },
         {
-          name: "jquery",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
+          name: "nextjs",
           color: "pink-text-gradient",
         },
       ],
-      image: memehub,
-      source_code_link: "https://github.com/Soham2395/Meme-Generator",
-      project_link: "https://meme-hub-azure.vercel.app/",
+      image: hackwithher,
+      source_code_link: "https://github.com/Soham2395/HackWithHer",
+        project_link: "https://hack-with-her.in/",
+    },
+    {
+      name: "StoreIt",
+      description:
+        "A modern, secure, and user-friendly cloud storage platform designed to help you store, organize, and share your files effortlessly.",
+      tags: [
+        {
+          name: "mern stack",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "appwrite",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: storeit,
+      source_code_link: "https://github.com/Soham2395/StoreIt",
+        project_link: "https://store-it-khaki.vercel.app/",
     },
     {
       name: "DICE Department Website",
       description:
-        "The official website of the Department of Interdisciplinary Courses in Engineering.",
+        "The official website of the Department of Interdisciplinary Courses in Engineering, Chitkara University.",
       tags: [
         {
           name: "mern stack",
@@ -308,6 +328,47 @@ import {
       image: meditation,
       source_code_link: "https://github.com/Soham2395/Meditation-App",
       project_link: "https://meditation-app-five-sooty.vercel.app/",
+    },
+    {
+      name: "SkillMingle",
+      description:
+        "An innovative solution for seamless task and project management,  real-time collaboration, and enhanced productivity.",
+      tags: [
+        {
+          name: "mern stack",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "next js",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: skillmingle,
+      source_code_link: "https://github.com/priyamaggarwal18/skillmingle",
+        project_link: "https://skillmingle.vercel.app/",
+    },
+    {
+      
+      name: "Memehub",
+      description:
+        "Web application where you can turn your ideas into memes and share them with the world.",
+      tags: [
+        {
+          name: "javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "jquery",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: memehub,
+      source_code_link: "https://github.com/Soham2395/Meme-Generator",
+      project_link: "https://meme-hub-azure.vercel.app/",
     },
   ];
   
