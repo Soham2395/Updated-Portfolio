@@ -37,7 +37,8 @@ import {
     preksha,
     skillmingle,
     hackwithher,
-    storeit
+    storeit,
+    infosys
   } from "../assets";
   
   export const navLinks = [
@@ -66,7 +67,7 @@ import {
     },
     
     {
-      title: "MERN Stack Developer",
+      title: "iOS Developer",
       icon: creator,
     },
     {
@@ -186,6 +187,18 @@ import {
         "Leading a team in the development and optimization of IEEE's website and app, focusing on delivering a modern and user-friendly experience",
         "Overseeing ongoing updates and maintenance to ensure our site remains cutting-edge and fully functional",
         "Committed to enhancing IEEE’s digital and event experiences through strategic leadership and technical expertise"
+      ]
+    },
+    {
+      title: "iOS Developer Intern",
+      company_name: "Infosys",
+      icon:infosys,
+      date: "Feb 2025 - Feb 2025",
+      points:[
+        "Managing and assigning tasks to the entire team using Jira leading to the overall completion of the app",
+        "Developed the app using Swift and SwiftUI, enhancing user experience and functionality",
+        "Used Firebase for backend and database management, Cloudinary for image storage and MapKit for location services",
+        "Implemented TTS using AVFoundation and Speech Framework"
       ]
     },
     {

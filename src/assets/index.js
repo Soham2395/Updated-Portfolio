@@ -38,6 +38,7 @@ import ieee from "./company/ieee.png";
 import chairman from "./company/chairman.jpeg";
 import preksha from "./company/preksha.jpeg";
 import aryan from "./company/aryan.jpeg";
+import infosys from "./company/infosys.png";
 
 import memehub from "./memehub.png";
 import realestate from "./realestate.png";
@@ -92,5 +93,6 @@ export {
   dicewebsite,
   chairman,
   preksha,
-  aryan
+  aryan,
+  infosys
 };
