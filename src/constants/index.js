@@ -38,7 +38,20 @@ import {
     skillmingle,
     hackwithher,
     storeit,
-    infosys
+    infosys,
+    ikarus,
+    fastapi,
+    swift,
+    vue,
+    sass,
+    supabase,
+    docker,
+    kafka,
+    redis,
+    aws,
+    grafana,
+    ieeeweb,
+    evalia
   } from "../assets";
   
   export const navLinks = [
@@ -160,16 +173,65 @@ import {
     {
       name: "C++",
       icon: cpp,
+    },
+    {
+      name: "FastAPI",
+      icon: fastapi,
+    },
+    {
+      name: "Swift",
+      icon: swift,
+    },
+    {
+      name: "Vue",
+      icon: vue,
+    },
+    {
+      name: "Supabase",
+      icon: supabase,
+    },
+    {
+      name: "Docker",
+      icon: docker,
+    },
+    {
+      name: "Kafka",
+      icon: kafka,
+    },
+    {
+      name: "Redis",
+      icon: redis,
+    },
+    {
+      name: "AWS",
+      icon: aws,
+    },
+    {
+      name: "Grafana",
+      icon: grafana,
     }
   ];
   
   const experiences = [
     {
+      title: "Software Developer Associate",
+      company_name: "Ikarus3D",
+      icon: ikarus,
+      iconBg: "#383E56",
+      date: "April 2025 - Present",
+      points: [
+        "Integrated AI texture generation and smart texture suggestions into an existing 3D configurator using React Three Fiber and Zustand.",
+        "Developed SwatchAI, a tool to transform furniture textures in user-uploaded images using YOLO, Stable Diffusion, and ComfyUI.",
+        "Built full-stack features with FastAPI, React, and Tailwind CSS, ensuring smooth UI performance and realistic texture rendering.",
+        "Resolved key challenges including secure session handling and seamless AI workflow integration for consistent output quality."
+      ],
+    },
+    {
       title: "Front End Developer Intern | Senior Software Developer",
       company_name: "JMedia Corp.",
       icon: jmedia,
       iconBg: "#383E56",
-      date: "February 2024 - Present",
+      date: "February 2024 - April 2025",
       points: [
         "Developed and maintained 8+ web applications using React.js and related technologies, contributing 40% to project success",
         "Collaborated with AI/ML and Cybersecurity teams to create high-quality products, improving cross-functional efficiency by 25%",
@@ -193,6 +255,7 @@ import {
       title: "iOS Developer Intern",
       company_name: "Infosys",
       icon:infosys,
+      iconBg: "#E6DEDD",
       date: "Feb 2025 - Feb 2025",
       points:[
         "Managing and assigning tasks to the entire team using Jira leading to the overall completion of the app",
@@ -241,7 +304,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "He has shown a great amount of responsiblity, leadership skills and a zeal to take on new challenges.",
+        "He has shown strong responsibility, leadership, and enthusiasm for new challenges.",
       name: "Anasthasia Short",
       designation: "Chairman",
       company: "JMedia Corp.",
@@ -251,21 +314,57 @@ import {
       testimonial:
         "His ability to tackle complex problems with creative solutions has been invaluable to our projects.",
       name: "Aryan Inguz",
-      designation: "CTO",
-      company: "The Xiting Way",
+      designation: "SDE Intern",
+      company: "Bajaj Finserv",
       image: aryan,
     },
     {
       testimonial:
-        "He possesses a deep understanding of data structures, development and software methodologies.",
+        "He possesses a deep understanding of development and software methodologies.",
       name: "Preksha Mahajan",
-      designation: "Mentor",
-      company: "Open Source Chandigarh",
+      designation: "SDE Intern",
+      company: "Nielsen",
       image: preksha,
     },
   ];
   
   const projects = [
+    {
+      name: "Evalia",
+      description:
+        "Take your interview experience to the next level with a platform designed to practice mock interviews.",
+      tags: [
+        {
+          name: "mern stack",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "nextjs",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: evalia,
+      source_code_link: "https://github.com/Soham2395/Evalia",
+        project_link: "https://evalia-tau.vercel.app/",
+    },
+    {
+      name: "IEEE-CIET Website",
+      description:
+        "The official website of the IEEE-CIET student branch. Get all the information about the events, members and more.",
+      tags: [
+        {
+          name: "mern stack",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "nextjs",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ieeeweb,
+      source_code_link: "https://github.com/Soham2395/IEEE-Web",
+        project_link: "https://ieee.chitkara.edu.in/",
+    },
     {
       name: "HackWithHer",
       description:
@@ -287,7 +386,7 @@ import {
     {
       name: "StoreIt",
       description:
-        "A modern, secure, and user-friendly cloud storage platform designed to help you store, organize, and share your files effortlessly.",
+        "A modern, secure, and user-friendly cloud storage platform designed to help  store, organize, and share your files effortlessly.",
       tags: [
         {
           name: "mern stack",
@@ -303,7 +402,7 @@ import {
         project_link: "https://store-it-khaki.vercel.app/",
     },
     {
-      name: "DICE Department Website",
+      name: "DICE Dept. Website",
       description:
         "The official website of the Department of Interdisciplinary Courses in Engineering, Chitkara University.",
       tags: [

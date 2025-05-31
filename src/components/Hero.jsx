@@ -89,21 +89,38 @@ const Hero = () => {
           </div>
 
           <div className="flex">
-            <a
+            <motion.a
               href="#contact"
-              className="  w-fit mx-auto flex items-center justify-center gap-6 bg-tertiary lg:px-7 lg:py-3 px-4 py-2 rounded-xl lg:mt-10 mt-5 cursor-pointer max-[350px]:hidden select-none"
+              className="relative overflow-hidden w-fit mx-auto flex items-center justify-center gap-6 bg-gradient-to-r from-blue-800 via-purple-700 to-red-700 text-white font-bold lg:px-7 lg:py-3 px-4 py-2 rounded-xl lg:mt-10 mt-5 cursor-pointer max-[350px]:hidden select-none shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-purple-500 group"
+              whileHover={{ 
+                scale: 1.05,
+                boxShadow: "0 10px 30px rgba(147, 94, 255, 0.3)"
+              }}
+              whileTap={{ scale: 0.98 }}
             >
-              <div className=" group border-[3px] border-white rounded-full md:h-12 h-10 w-7 flex justify-center lg:scale-100 scale-75">
-                <div className="bg-white h-3 w-1 rounded-full mt-[10px] animate-bounce lg:scale-100 scale-75"></div>
+              <motion.div
+                className="absolute inset-0 bg-gradient-to-r from-teal-500/20 via-purple-500/20 to-orange-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                layoutId="scrollButtonHover"
+              />
+              
+              <div className="relative z-10 group border-[3px] border-white rounded-full md:h-12 h-10 w-7 flex justify-center lg:scale-100 scale-75">
+                <motion.div 
+                  className="bg-white h-3 w-1 rounded-full mt-[10px] lg:scale-100 scale-75"
+                  animate={{ y: [0, 5, 0] }}
+                  transition={{ duration: 1.5, repeat: Infinity }}
+                />
               </div>
 
-              <p className=" ">
-                {/* <span className="faulty-letter">Down</span><span className=" glowing-txt">Scroll</span>
-              
-               */}
+              <span className="relative z-10 flex items-center gap-2">
                 Scroll Down
-              </p>
-            </a>
+                <motion.span
+                  animate={{ y: [0, 3, 0] }}
+                  transition={{ duration: 1.5, repeat: Infinity }}
+                >
+                  ↓
+                </motion.span>
+              </span>
+            </motion.a>
           </div>
 
           <div className="text-[20px] md:text-[35px] flex justify-center gap-5  items-center md:mt-10 mt-5 md:gap-12 sm:mb-20  ">

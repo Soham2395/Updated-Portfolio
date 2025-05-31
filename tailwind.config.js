@@ -34,7 +34,7 @@ export default {
       },
       backgroundImage: {
         "avatar": "url(/src/assets/soham.jpg)",
-        "avatar1":"url('/src/assets/soham2.jpg')"
+        "avatar1":"url(/src/assets/soham2.png)"
       },
     },
   },

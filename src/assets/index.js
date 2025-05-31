@@ -29,6 +29,18 @@ import vite from "./tech/vite.png";
 import python from "./tech/python.png";
 import c from "./tech/c.png";
 import cpp from "./tech/cpp.png";
+import fastapi from "./tech/fastapi.svg";
+import swift from "./tech/swift.png";
+import vue from "./tech/vue.png";
+import sass from "./tech/scss.png";
+import supabase from "./tech/supabase.png";
+import docker from "./tech/docker.png";
+import kafka from "./tech/kafka.webp";
+import redis from "./tech/redis.png";
+import aws from "./tech/aws.png";
+import grafana from "./tech/grafana.png";
+
+
 
 import jmedia from "./company/jmedia.png";
 import txw from "./company/txw.png";
@@ -39,6 +51,7 @@ import chairman from "./company/chairman.jpeg";
 import preksha from "./company/preksha.jpeg";
 import aryan from "./company/aryan.jpeg";
 import infosys from "./company/infosys.png";
+import ikarus from "./company/ikarus.jpeg";
 
 import memehub from "./memehub.png";
 import realestate from "./realestate.png";
@@ -47,6 +60,8 @@ import dicewebsite from "./dicewebsite.png";
 import skillmingle from "./skillmingle.png";
 import hackwithher from "./hackwithher.png";
 import storeit from "./storeit.png";
+import ieeeweb from "./ieee.png";
+import evalia from "./evalia.png";
 
 export {
   logo,
@@ -94,5 +109,18 @@ export {
   chairman,
   preksha,
   aryan,
-  infosys
+  infosys,
+  ikarus, 
+  fastapi,
+  swift,
+  vue,
+  sass,
+  supabase,
+  docker,
+  kafka,
+  redis,
+  aws,
+  grafana,
+  ieeeweb,
+  evalia
 };
