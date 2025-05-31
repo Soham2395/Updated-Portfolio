@@ -40,7 +40,16 @@ const TechCard = ({ index, icon, name, showMore, isAdditional }) => {
           dragElastic={0.2}
           className="w-full bg-gradient-to-b from-blue-800 via-purple-700 to-red-700 p-[2px] rounded-full shadow-card select-none hover:shadow-xl transition-all duration-300 ease-in-out cursor-grab active:cursor-grabbing will-change-transform hero-animation"
         >
-          <div className="bg-tertiary rounded-full p-5 flex justify-center items-center hover:bg-opacity-90 transition-all duration-300 relative overflow-hidden">
+          <div className="bg-tertiary rounded-full p-5 flex justify-center items-center hover:bg-opacity-90 transition-all duration-300 relative overflow-hidden group">
+            {/* Floating tech name on hover, above the image */}
+            <motion.div
+              className="absolute inset-0 flex items-center justify-center bg-gradient-to-r from-purple-600/90 to-blue-600/90 backdrop-blur-sm rounded-full opacity-0 group-hover:opacity-100 transition-all duration-300 z-20"
+              whileHover={{ opacity: 1 }}
+            >
+              <span className="text-white text-xs font-bold text-center px-2">
+                {name}
+              </span>
+            </motion.div>
             <motion.img
               src={icon}
               alt={`${name} technology icon`}
@@ -50,15 +59,6 @@ const TechCard = ({ index, icon, name, showMore, isAdditional }) => {
                 transition: { duration: 0.6 }
               }}
             />
-            {/* Floating tech name on hover */}
-            <motion.div
-              className="absolute inset-0 flex items-center justify-center bg-gradient-to-r from-purple-600/90 to-blue-600/90 backdrop-blur-sm rounded-full opacity-0 hover:opacity-100 transition-all duration-300"
-              whileHover={{ opacity: 1 }}
-            >
-              <span className="text-white text-xs font-bold text-center px-2">
-                {name}
-              </span>
-            </motion.div>
           </div>
         </motion.div>
       </Tilt>
