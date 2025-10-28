@@ -62,6 +62,7 @@ import hackwithher from "./hackwithher.png";
 import storeit from "./storeit.png";
 import ieeeweb from "./ieee.png";
 import evalia from "./evalia.png";
+import projectflow from "./projectflow.png";
 
 export {
   logo,
@@ -122,5 +123,6 @@ export {
   aws,
   grafana,
   ieeeweb,
-  evalia
+  evalia,
+  projectflow
 };

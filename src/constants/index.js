@@ -51,7 +51,8 @@ import {
     aws,
     grafana,
     ieeeweb,
-    evalia
+    evalia,
+    projectflow
   } from "../assets";
   
   export const navLinks = [
@@ -218,38 +219,26 @@ import {
       company_name: "Ikarus3D",
       icon: ikarus,
       iconBg: "#383E56",
-      date: "April 2025 - Present",
+      date: "April 2025 - September 2025",
       points: [
-        "Integrated AI texture generation and smart texture suggestions into an existing 3D configurator using React Three Fiber and Zustand.",
-        "Developed SwatchAI, a tool to transform furniture textures in user-uploaded images using YOLO, Stable Diffusion, and ComfyUI.",
-        "Built full-stack features with FastAPI, React, and Tailwind CSS, ensuring smooth UI performance and realistic texture rendering.",
+        " Integrated AI-based texture generation and intelligent suggestions into an existing 3D Configurator, streamlining product customization and improving feature usability by 40%.",
+        "Developed SwatchAI, a full-stack AI tool for realistic furniture texture replacement using YOLOv8, Stable Diffusion, and ComfyUI, enhancing output accuracy and image realism.",
+        "Engineered a texture compression format reducing file sizes upto 98.2% without any loss in quality.",
         "Resolved key challenges including secure session handling and seamless AI workflow integration for consistent output quality."
       ],
     },
     {
-      title: "Front End Developer Intern | Senior Software Developer",
+      title: "Front End Developer Intern | Software Developer",
       company_name: "JMedia Corp.",
       icon: jmedia,
       iconBg: "#383E56",
-      date: "February 2024 - April 2025",
+      date: "February 2024 - January 2025",
       points: [
         "Developed and maintained 8+ web applications using React.js and related technologies, contributing 40% to project success",
         "Collaborated with AI/ML and Cybersecurity teams to create high-quality products, improving cross-functional efficiency by 25%",
         "Participated in code reviews, providing constructive feedback and enhancing code quality by 80%",
         "Managed teams efficiently leading to timely completion of projects"
       ],
-    },
-    {
-      title: "Technical Head",
-      company_name: "IEEE",
-      icon: ieee,
-      iconBg: "#383E56",
-      date: "July 2024 - Present",
-      points:[
-        "Leading a team in the development and optimization of IEEE's website and app, focusing on delivering a modern and user-friendly experience",
-        "Overseeing ongoing updates and maintenance to ensure our site remains cutting-edge and fully functional",
-        "Committed to enhancing IEEE’s digital and event experiences through strategic leadership and technical expertise"
-      ]
     },
     {
       title: "iOS Developer Intern",
@@ -274,31 +263,7 @@ import {
         "Developed components for the main website, enhancing user experience and functionality",
         "Collaborated with the team to develop an AI chatbot, improving customer interaction and support efficiency by 30%"
       ],
-    },
-    {
-      title: "Technical Team",
-      company_name: "Open Source Chandigarh",
-      icon: osc,
-      iconBg: "#383E56",
-      date: "Sep 2023 - June 2024",
-      points: [
-        "Organizing events, seminars and workshops for the community.",
-        "Part of the Programming and DSA team."
-      ],
-    },
-    {
-      title: "Core Team Member",
-      company_name: "Department of Interdisciplinary Courses in Engineering",
-      icon: dice,
-      iconBg: "#E6DEDD",
-      date: "Dec 2022 - July 2024",
-      points: [
-        "Received government funding of 2 Lakh INR for the E-Bike project",
-        "Won national level award for the project",
-        "Developing the department's official website increasing user reach by 350%",
-        "Managing and organizing successful events"
-      ],
-    },
+    }
   ];
   
   const testimonials = [
@@ -364,6 +329,28 @@ import {
       image: ieeeweb,
       source_code_link: "https://github.com/Soham2395/IEEE-Web",
         project_link: "https://ieee.chitkara.edu.in/",
+    },
+    {
+      name: "ProjectFlow",
+      description:
+        "An AI-Powered innovative solution for seamless task and project management and real-time communication.",
+      tags: [
+        {
+          name: "next js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "socket io",
+          color: "green-text-gradient",
+        },
+        {
+          name: "redis",
+          color: "blue-text-gradient",
+        }
+      ],
+      image: projectflow,
+      source_code_link: "https://github.com/Soham2395/ProjectFlow",
+        project_link: "https://projectflow-wheat.vercel.app/",
     },
     {
       name: "HackWithHer",
@@ -440,24 +427,6 @@ import {
       image: meditation,
       source_code_link: "https://github.com/Soham2395/Meditation-App",
       project_link: "https://meditation-app-five-sooty.vercel.app/",
-    },
-    {
-      name: "SkillMingle",
-      description:
-        "An innovative solution for seamless task and project management,  real-time collaboration, and enhanced productivity.",
-      tags: [
-        {
-          name: "mern stack",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "next js",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: skillmingle,
-      source_code_link: "https://github.com/priyamaggarwal18/skillmingle",
-        project_link: "https://skillmingle.vercel.app/",
     },
     {
       
